@@ -1,0 +1,16 @@
+{
+    "name": "simondarke/shrewdxml",
+    "description": "Simple package to deal with shrewd xml feed. You'll never need to use this",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Darke",
+            "email": "simondarke@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": { "SimonDarke\\ShrewdXML\\": "src/" }
+    }
+}
