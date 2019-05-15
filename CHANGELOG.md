@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/simondarke/shrewdxml/compare/v1.2.0...v1.3.0) (2019-05-15)
+
+
+### Features
+
+* **curl:** add simple curl class ([#6](https://github.com/simondarke/shrewdxml/issues/6)) ([cf91f9b](https://github.com/simondarke/shrewdxml/commit/cf91f9b))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/simondarke/shrewdxml/compare/v1.1.0...v1.2.0) (2019-05-15)
 
