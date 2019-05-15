@@ -8,38 +8,9 @@ class MetricsToXML
     protected $accessToken;
     protected $xmlObject;
 
-    public function __construct($agencyId, $accessToken)
+    public function __construct()
     {
         $this->xmlObject = new \SimpleXMLElement($this->generateHeader());
-
-        $this->setAccessToken($accessToken);
-        $this->setAgencyId($agencyId);
-
-        $this->addChild('AgencyId', $this->agencyId);
-        $this->addChild('AccessToken', $this->accessToken);
-
-    }
-
-    public function getAgencyId()
-    {
-        return $this->accessToken;
-    }
-
-    public function setAgencyId($agencyId)
-    {
-        $this->agencyId = $agencyId;
-        return $this->agencyId;
-    }
-
-    public function getAccessToken()
-    {
-        return $this->accessToken;
-    }
-
-    public function setAccessToken($accessToken)
-    {
-        $this->accessToken = $accessToken;
-        return $this->accessToken;
     }
 
     public function returnXml()
@@ -63,7 +34,7 @@ class MetricsToXML
         }
     }
 
-    protected function addChild($childName, $childValue)
+    public function addChild($childName, $childValue)
     {
         $this->xmlObject->addChild($childName, $childValue);
     }

@@ -7,12 +7,15 @@ $agencyId = 111111;
 $accessToken = 22222222222222222;
 
 $arrayOfMetrics["calls_handled"]["indicator"] = 21;
-$arrayOfMetrics["calls_handled"]["value"] = rand(0,1000);
+$arrayOfMetrics["calls_handled"]["value"] = 115;
 $arrayOfMetrics["calls_not_handled"]["indicator"] = 22;
-$arrayOfMetrics["calls_not_handled"]["value"] = rand(0,15);
+$arrayOfMetrics["calls_not_handled"]["value"] = 12;
 
-$feedXML = new MetricsToXML($agencyId, $accessToken);
+$feedXML = new MetricsToXML();
+echo $feedXML->returnXml();
 
+$feedXML->addChild('AgencyId', $agencyId);
+//$feedXML->addChild('AccessToken', $accessToken);
 $feedXML->addNode('IndUpdate', $arrayOfMetrics);
 
 echo $feedXML->returnXml();
