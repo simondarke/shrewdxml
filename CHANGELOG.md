@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/simondarke/shrewdxml/compare/v1.1.0...v1.2.0) (2019-05-15)
+
+
+### Features
+
+* **response parser:** add basic parser of return ([4494e47](https://github.com/simondarke/shrewdxml/commit/4494e47))
+
+
+
 <a name="1.1.0"></a>
 # 1.1.0 (2019-05-15)
 
