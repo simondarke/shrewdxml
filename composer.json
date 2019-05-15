@@ -2,7 +2,7 @@
     "name": "simondarke/shrewdxml",
     "description": "Simple package to deal with shrewd xml feed. You'll never need to use this",
     "type": "library",
-    "license": "MIT",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Simon Darke",
