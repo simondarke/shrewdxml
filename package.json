@@ -1,0 +1,22 @@
+{
+  "name": "shrewd-xml",
+  "version": "1.0.0",
+  "description": "Just a simple little library for dealing with shrewd. You'll never need to use this.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simondarke/shrewdxml.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simondarke/shrewdxml/issues"
+  },
+  "homepage": "https://github.com/simondarke/shrewdxml#readme"
+}
