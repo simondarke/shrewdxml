@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.3.1"></a>
+## [1.3.1](https://github.com/simondarke/shrewdxml/compare/v1.3.0...v1.3.1) (2019-05-23)
+
+
+### Bug Fixes
+
+* **curl:** fix typo in method call ([#8](https://github.com/simondarke/shrewdxml/issues/8)) ([660ff99](https://github.com/simondarke/shrewdxml/commit/660ff99))
+
+
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/simondarke/shrewdxml/compare/v1.2.0...v1.3.0) (2019-05-15)
 
