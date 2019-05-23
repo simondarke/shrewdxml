@@ -72,10 +72,10 @@ class Curl
     public function sendPayload()
     {
         $handler = curl_init();
-        curl_setopt_array($this->curlOpts);
+        curl_setopt_array($handler, $this->curlOpts);
         $rp = new ResponseParser;
         try{
-            $rp->checkRepsonse(curl_exec($handler));
+            $rp->checkResponse(curl_exec($handler));
         } catch (\Exception $e) {
             return $e->getMessage();
         }
